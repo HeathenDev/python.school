@@ -1,0 +1,12 @@
+user_input = int(input())
+user_num = []
+
+while user_input > 0:
+    user_num.append(user_input)
+    user_input = int(input())
+    
+smallest_num = min(user_num)
+largest_num = max(user_num)
+
+print(smallest_num, largest_num)
+
