@@ -1,0 +1,6 @@
+input_char = input()
+inputl = input()
+input_list = inputl.split()
+for inputl in input_list:
+    if input_char in inputl:
+        print(inputl)
