@@ -1,0 +1,33 @@
+full_name = str(input())
+
+# counts number of spaces
+out = full_name.count(' ')
+
+
+if out == 1: 
+
+    name_list = full_name.split(' ') 
+
+    first_name = name_list[0] 
+
+    first_initial = first_name[0]
+
+    print(name_list[1] + ',' + ' ' + first_name)
+
+elif out == 2:
+
+    name_list = full_name.split(' ') 
+
+    first_name = name_list[0] 
+
+    first_initial = first_name[0] 
+
+    middle_name = name_list[1] 
+
+    middle_initial = middle_name[0] 
+
+    print(name_list[2] + ',' + ' ' + first_name + ' ' + middle_initial + '.')
+
+else:
+
+    print('Please Enter a Valid Name')
